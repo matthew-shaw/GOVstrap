@@ -1,0 +1,26 @@
+body {
+  background: white;
+  color: #0b0c0c;
+}
+
+a:link {
+  color: #005EA5;
+}
+
+a:hover {
+  color: #2B8CC4;
+}
+
+a:focus {
+  background-color: #FFBF47;
+}
+
+a:visited {
+  color: #4C2C92;
+}
+blockquote {
+  border-color: #bfc1c3;
+}
+hr {
+  background: #bfc1c3;
+}
