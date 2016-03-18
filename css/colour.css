@@ -24,3 +24,26 @@ blockquote {
 hr {
   background: #bfc1c3;
 }
+body > .container {
+  border-top: 10px solid #005ea5;
+}
+footer {
+  border-top: 10px solid #005ea5;
+  background-color: #dee0e2;
+}
+.btn-primary {
+  background-color: #005ea5;
+}
+.navbar-inverse {
+    background-color: #0b0c0c;
+    border-color: #0b0c0c;
+}
+.navbar-brand {
+  color: #ffffff !important;
+}
+footer a:link {
+  color: #454a4c;
+}
+blockquote {
+  border-color: #bfc1c3;
+}
