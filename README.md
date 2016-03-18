@@ -1,2 +1,2 @@
 # GovStrap
-GOV.UK Styles for Bootstrap
+A GOV.UK based theme for Bootstrap
