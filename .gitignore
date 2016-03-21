@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/ruby,jekyll,osx,windows,linux,jetbrains
+# Created by https://www.gitignore.io/api/ruby,jekyll,osx,windows,linux,jetbrains,sass
 
 ### Ruby ###
 *.gem
@@ -164,3 +164,8 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
+
+### Sass ###
+.sass-cache/
+*.css.map
