@@ -1,7 +1,7 @@
 # Site settings
-title: GovStrap
+title: GOVstrap
 description: A GOV.UK based theme for Bootstrap.
-baseurl: "/GovStrap" # the subpath of your site, e.g. /blog
+baseurl: "/GOVstrap" # the subpath of your site, e.g. /blog
 url: "http://matthew-shaw.github.io" # the base hostname & protocol for your site
 gems:
   - jekyll-sitemap
