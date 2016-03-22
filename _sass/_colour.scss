@@ -1,42 +1,41 @@
+@import "palette";
+
 body {
-  background: white;
-  color: #0b0c0c;
+  background: $page-colour;
+  color: $text-colour;
 }
 
 a:link {
-  color: #005EA5;
+  color: $link-colour;
 }
 
 a:hover {
-  color: #2B8CC4;
+  color: $link-hover-colour;
 }
 
 a:focus {
-  background-color: #FFBF47;
+  background-color: $focus-colour;
 }
 
 a:visited {
-  color: #4C2C92;
+  color: $link-visited-colour;
 }
 blockquote {
-  border-color: #bfc1c3;
+  border-color: $border-colour;
 }
 hr {
-  background: #bfc1c3;
+  background: $border-colour;
 }
 body > .container {
-  border-top: 10px solid #005ea5;
+  border-top: 10px solid $govuk-blue;
 }
 footer {
-  border-top: 10px solid #005ea5;
-  background-color: #dee0e2;
-}
-.btn-primary {
-  background-color: #005ea5;
+  border-top: 10px solid $govuk-blue;
+  background-color: $panel-colour;
 }
 .navbar-inverse {
-    background-color: #0b0c0c;
-    border-color: #0b0c0c;
+  background-color: $black;
+  border-color: $black;
 }
 .navbar-brand {
   color: #ffffff !important;
@@ -44,6 +43,21 @@ footer {
 footer a {
   color: #454a4c;
 }
-blockquote {
-  border-color: #bfc1c3;
+.btn {
+  color: $white;
+}
+.btn-success {
+  background-color: $button-colour;
+  box-shadow: 0 2px 0 $green;
+  border-color: $button-colour;
+}
+.btn-success:hover {
+  background-color: $green;
+}
+.btn-primary {
+  background-color: $govuk-blue;
+  border-color: $govuk-blue;
+}
+.btn-danger {
+  background-color: $error-colour;
 }
