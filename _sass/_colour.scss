@@ -48,7 +48,7 @@ footer a {
 }
 .btn-success {
   background-color: $button-colour;
-  box-shadow: 0 2px 0 $green;
+  box-shadow: 0 2px 0 #004f24;
   border-color: $button-colour;
 }
 .btn-success:hover {
@@ -56,8 +56,27 @@ footer a {
 }
 .btn-primary {
   background-color: $govuk-blue;
+  box-shadow: 0 2px 0 #004172;
   border-color: $govuk-blue;
 }
 .btn-danger {
   background-color: $error-colour;
+  box-shadow: 0 2px 0 #820a16;
+  border-color: $error-colour;
+}
+.btn-warning {
+  background-color: $orange;
+  box-shadow: 0 2px 0 #ec580d;
+  border-color: $orange;
+}
+.btn-info {
+  background-color: $turquoise;
+  box-shadow: 0 2px 0 #1e7871;
+  border-color: $turquoise;
+}
+.btn-default {
+  background-color: $panel-colour;
+  box-shadow: 0 2px 0 #c3c7ca;
+  border-color: $panel-colour;
+  color: $text-colour;
 }
