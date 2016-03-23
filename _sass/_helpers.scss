@@ -1,0 +1,22 @@
+@import "palette";
+
+.bg-primary {
+  color: $white;
+  background-color: $govuk-blue;
+}
+.bg-success {
+  color: $white;
+  background-color: $button-colour;
+}
+.bg-info {
+  color: $white;
+  background-color: $turquoise;
+}
+.bg-warning {
+  color: $white;
+  background-color: $orange;
+}
+.bg-danger {
+  color: $white;
+  background-color: $red;
+}
