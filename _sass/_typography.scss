@@ -18,6 +18,10 @@ body {
   color: $text-colour;
 }
 
+h1 small {
+  color: $grey-1;
+}
+
 h1 {
   font-size: 48px;
   margin-top: 1.25em;
