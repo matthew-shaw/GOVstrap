@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+@import "palette";
 
 div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark {
     border: none;
@@ -13,6 +14,8 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 19px;
   margin: 0;
+  background: $page-colour;
+  color: $text-colour;
 }
 
 h1 {
@@ -86,6 +89,7 @@ blockquote {
   border-left-style: solid;
   padding: 0.7894736842em;
   margin-bottom: 0.7894736842em;
+  border-color: $border-colour;
 }
 hr {
   display: block;
@@ -94,6 +98,7 @@ hr {
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 0;
+  background: $border-colour;
 }
 mark {
   font-style: normal;
@@ -125,4 +130,18 @@ footer h2 {
 }
 .navbar-brand {
   text-decoration: none;
+}
+a:link {
+  color: $link-colour;
+}
+
+a:hover {
+  color: $link-hover-colour;
+}
+
+a:focus {
+  background-color: $focus-colour;
+}
+a:visited {
+  color: $link-visited-colour;
 }

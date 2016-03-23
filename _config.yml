@@ -6,7 +6,8 @@ url: "http://matthew-shaw.github.io" # the base hostname & protocol for your sit
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
-
+sass:
+    style: compressed
 
 # Build settings
 markdown: kramdown

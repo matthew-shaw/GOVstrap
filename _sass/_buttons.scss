@@ -1,4 +1,7 @@
+@import "palette";
+
 .btn {
+  color: $white;
   border-radius: 0;
   border: none;
   font-size: 1em;
@@ -6,4 +9,47 @@
   text-decoration: none;
   padding: 0.3em 0.6em 0.2em;
   vertical-align: top;
+}
+.btn:link, .btn:visited {
+  color: $white;
+}
+.btn-success {
+  background-color: $button-colour;
+  box-shadow: 0 2px 0 #004f24;
+  border-color: $button-colour;
+}
+.btn-success:hover {
+  background-color: $green;
+}
+.btn-primary {
+  background-color: $govuk-blue;
+  box-shadow: 0 2px 0 #004172;
+  border-color: $govuk-blue;
+}
+.btn-danger {
+  background-color: $error-colour;
+  box-shadow: 0 2px 0 #820a16;
+  border-color: $error-colour;
+}
+.btn-warning {
+  background-color: $orange;
+  box-shadow: 0 2px 0 #ec580d;
+  border-color: $orange;
+}
+.btn-info {
+  background-color: $turquoise;
+  box-shadow: 0 2px 0 #1e7871;
+  border-color: $turquoise;
+}
+.btn-default {
+  background-color: $panel-colour;
+  box-shadow: 0 2px 0 #c3c7ca;
+  border-color: $panel-colour;
+  color: $text-colour;
+}
+.btn-lg {
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 700;
+  text-transform: none;
 }

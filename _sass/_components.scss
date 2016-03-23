@@ -1,0 +1,19 @@
+@import "palette";
+
+body > .container {
+  border-top: 10px solid $govuk-blue;
+}
+footer {
+  border-top: 10px solid $govuk-blue;
+  background-color: $panel-colour;
+}
+.navbar-inverse {
+  background-color: $black;
+  border-color: $black;
+}
+.navbar-brand {
+  color: $white !important;
+}
+footer a {
+  color: #454a4c;
+}
