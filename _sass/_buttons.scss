@@ -13,6 +13,9 @@
 .btn:link, .btn:visited {
   color: $white;
 }
+.btn-default:link, .btn-default:visited {
+  color: $text-colour;
+}
 .btn-success {
   background-color: $button-colour;
   box-shadow: 0 2px 0 #004f24;
